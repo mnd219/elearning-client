@@ -1,0 +1,50 @@
+.centre-settings-page {
+  width: 100%;
+}
+
+.centre-settings-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.centre-settings-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.centre-settings-card .ant-card-head {
+  min-height: 64px;
+  padding: 0 24px;
+  background: #eff6ff;
+  border-bottom: 1px solid #dbeafe;
+  border-radius: 12px 12px 0 0;
+}
+
+.centre-settings-card .ant-card-head-title {
+  padding: 18px 0;
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.centre-settings-card .ant-descriptions-item-label {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.centre-settings-card .ant-descriptions-item-content {
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.centre-settings-card .ant-descriptions-view table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.centre-settings-card .ant-descriptions-row > td {
+  width: 50%;
+}

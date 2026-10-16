@@ -1,0 +1,49 @@
+.profile-card {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border: 1.5px solid grey;
+  border-radius: 16px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    border-width 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.profile-card.ant-card-hoverable:hover {
+  border: 3px solid var(--profile-color);
+
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 8px 24px -6px var(--profile-color);
+}
+
+.profile-card:focus-within {
+  outline: 3px solid var(--profile-color);
+  outline-offset: 4px;
+}
+
+.profile-card-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.profile-card-icon {
+  font-size: clamp(44px, 4vw, 72px);
+}
+
+.profile-card-title.ant-typography {
+  margin: 0;
+  font-size: clamp(16px, 1.5vw, 22px);
+}
+
+.profile-card-centre {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}

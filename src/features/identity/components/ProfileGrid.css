@@ -1,0 +1,42 @@
+.profile-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(12px, 2vw, 24px);
+  width: 100%;
+}
+
+.profile-grid-item {
+  flex: 0 1 210px;
+  width: 210px;
+  min-width: 0;
+}
+
+.profile-grid-item .profile-card,
+.profile-grid-item .other-profile-card {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.other-profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border: 1px solid #d97706;
+  border-radius: 16px;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.other-profile-card .anticon {
+  font-size: clamp(44px, 4vw, 72px);
+  color: #d97706;
+}

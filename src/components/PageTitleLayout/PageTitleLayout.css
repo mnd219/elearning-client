@@ -1,0 +1,20 @@
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.page-title-accent {
+  width: 4px;
+  height: 36px;
+  border-radius: 4px;
+  background: #1677ff;
+}
+
+.page-title h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f172a;
+}
